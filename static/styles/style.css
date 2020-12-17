@@ -1,0 +1,16 @@
+:root {
+  --main-bg: white;
+  --text-main: black;
+  --black-bg: rgb(25, 26, 29);
+  --green: #93b876;
+  --grey-border: rgba(255, 255, 255, 0.3);
+  --text-on-color: white;
+  --card-bg: #f6f6f6;
+  --card-bottom: #5e5e5e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
