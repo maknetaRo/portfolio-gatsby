@@ -3,33 +3,44 @@ Work in progress
 TODO:
 
 1. move sections from static portfolio
-   [ ] header
-   [ ] main
-   [ ] projects
-   [ ] posts
-   [ ] footer
+
+- [x] header
+- [ ] main
+- [ ] projects
+- [ ] posts
+- [ ] footer
+
 2. move content from static portfolio into index.js
-   [ ] header
-   [ ] projects
-   [ ] posts
-   [ ] footer
+
+- [ ] header
+- [ ] projects
+- [ ] posts
+- [ ] footer
+
 3. create pages
-   [ ] projects
-   [ ] blog
-   [ ] about
-   [ ] contact
+
+- [ ] projects
+- [ ] blog
+- [ ] about
+- [ ] contact
+
 4. create individual pages for:
-   [ ] blog posts
-   [ ] projects
+
+- [ ] blog posts
+- [ ] projects
+
 5. add forms to
-   [ ] add
-   [ ] edit
-   [ ] delete
-   posts, articles
+
+- [ ] add
+- [ ] edit
+- [ ] delete
+      posts, articles
+
 6. others
-   [ ] create contact form
-   [ ] create sign up for newsletter
-   [ ] create canonical url
+
+- [ ] create contact form
+- [ ] create sign up for newsletter
+- [ ] create canonical url
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
