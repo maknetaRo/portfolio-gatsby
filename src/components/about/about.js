@@ -16,7 +16,7 @@ const About = props => {
         </div>
         <div className={styles.mePhoto}>
           <figure className={styles.me}>
-            <img className={styles.meImg} src={author} alt="woman's photo" />
+            <img className={styles.meImg} src={author} alt="woman's face" />
           </figure>
         </div>
       </section>

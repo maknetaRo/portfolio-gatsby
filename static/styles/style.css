@@ -14,3 +14,29 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: var(--main-bg);
+  color: var(--text-main);
+}
+
+section {
+  width: 100%;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 672px) {
+  
+}
+
+@media (min-width: 798px) {
+  section {
+    display: flex;
+    flex-direction: row;
+  }
+}
