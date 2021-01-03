@@ -5,10 +5,10 @@ TODO:
 1. move sections from static portfolio
 
 - [x] header
-- [ ] main
-- [ ] projects
-- [ ] posts
-- [ ] footer
+- [x] main
+- [x] projects
+- [x] posts
+- [x] footer
 
 2. move content from static portfolio into index.js
 
