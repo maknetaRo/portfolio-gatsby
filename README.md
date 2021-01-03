@@ -19,6 +19,7 @@ TODO:
 
 3. create pages
 
+- [ ] home
 - [ ] projects
 - [ ] blog
 - [ ] about

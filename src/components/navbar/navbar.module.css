@@ -30,13 +30,22 @@
 .nav ul li a {
   color: var(--text-on-color);
   text-decoration: none;
-  letter-spacing: 1px;
+  padding-bottom: 8px;
+  
+  /* letter-spacing: 1px; */
 }
 .other-pages-links {
-  padding: 0 1rem;
+  padding: 0 0.5rem;
+  
 }
 .other-pages-links:first-of-type {
   padding-left: 0;
+}
+.author-logo li a:hover {
+  border-bottom: 3px solid transparent;
+}
+a:hover {
+  border-bottom: 3px solid var(--green);
 }
 
 @media (min-width: 672px) {
@@ -44,6 +53,12 @@
     border-bottom: 1px solid transparent;
     display: flex;
     flex-direction: row;
+  }
+  .nav ul li a {
+    letter-spacing: 1px;
+  }
+  .other-pages-links {
+    padding: 0 1rem;
   }
 }
 

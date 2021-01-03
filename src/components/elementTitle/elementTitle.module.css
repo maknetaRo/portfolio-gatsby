@@ -1,0 +1,10 @@
+.project-title {
+  padding-bottom: 1.5rem;
+}
+
+
+@media (min-width: 798px) {
+    .project-title a {
+        font-size: 2.5rem;
+      }
+}

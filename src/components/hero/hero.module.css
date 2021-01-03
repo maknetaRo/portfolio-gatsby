@@ -1,18 +1,18 @@
-.about {
+.hero {
   height: auto;
-  margin-top: 65px;
+  /* margin-top: 65px; */
   text-align: center;
   line-height: 1.75;
   color: white;
-  min-height: 85vh;
+  /* min-height: 85vh; */
   padding-top: 3rem;
   padding-bottom: 7.5rem;
 }
-.about-info {
+.hero-info {
   padding-left: 2%;
   padding-right: 2%;
 }
-.about h1 {
+.hero h1 {
   margin-top: 5rem;
   margin-bottom: 1rem;
   font-weight: bold;
@@ -21,7 +21,7 @@
   color: var(--green);
 }
 
-.about p {
+.hero p {
   font-size: 1.25rem;
 }
 
@@ -41,11 +41,13 @@
 }
 
 @media (min-width: 672px) {
-  .about {
+  .hero {
     padding-left: 5%;
     padding-right: 5%;
+    margin-top: 65px;
+    min-height: 75vh;
   }
-  .about h1 {
+  .hero h1 {
     margin-top: 0;
     font-size: 2.5rem;
   }
@@ -62,20 +64,20 @@
 }
 
 @media (min-width: 798px) {
-  .about {
+  .hero {
     justify-content: space-between;
     display: flex;
     flex-direction: row;
   }
-  .about h1 {
+  .hero h1 {
     margin-top: 0;
     font-size: 3rem;
   }
 
-  .about p {
+  .hero p {
     font-size: 1.5rem;
   }
-  .about-info {
+  .hero-info {
     width: 50%;
     text-align: left;
     margin-top: -5%;

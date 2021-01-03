@@ -22,6 +22,10 @@ body {
   color: var(--text-main);
 }
 
+main {
+  min-height: 100vh;
+}
+
 section {
   width: 100%;
   padding: 5%;
@@ -30,8 +34,9 @@ section {
   align-items: center;
 }
 
+
+
 @media (min-width: 672px) {
-  
 }
 
 @media (min-width: 798px) {

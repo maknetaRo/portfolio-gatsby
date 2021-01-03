@@ -1,14 +1,11 @@
 import React from 'react'
-import Header from './header/header'
-import Main from './main/main'
 
 
-const layout = () => {
+const layout = ({ children }) => {
     return (
         <div>
-        <Header />
-        <Main />
-            
+            {children}
+
         </div>
     )
 }

@@ -1,9 +1,19 @@
 import React from 'react'
 import styles from './navbar.module.css'
 import { Link } from 'gatsby'
+import { data } from '../../constants/links'
+
+const tempLinks = data.map(link => {
+  return (
+      <li className={styles.otherPagesLinks} key={link.id}>
+          <Link to={link.url}>{link.text}</Link>
+      </li>
+  )
+})
 
 
-const Navbar = props => {
+const Navbar = () => {
+
     return (
         <div>
         <nav className={styles.nav}>
@@ -12,10 +22,7 @@ const Navbar = props => {
             <li><Link to="/">MR</Link></li>
           </ul>
           <ul className={styles.otherPages}>
-            <li className={styles.otherPagesLinks}><Link to="/about/">about</Link></li>
-            <li className={styles.otherPagesLinks}><Link to="/projects/">projects</Link></li>
-            <li className={styles.otherPagesLinks}><Link to="/articles/">articles</Link></li>
-            <li className={styles.otherPagesLinks}><Link to="/contact/">contact</Link></li>
+          {tempLinks}
           </ul>
         </div>
       </nav>

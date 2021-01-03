@@ -1,10 +1,10 @@
 import React from 'react'
 import styles from './moreBtn.module.css'
 
-const MoreBtn = () => {
+const MoreBtn = props => {
     return (
         <div>
-        <a className={styles.mediumMore} href="#projects">View More Projects</a>
+            <a className={styles.mediumMore} href={props.href}>{props.text}</a>
         </div>
     )
 }
