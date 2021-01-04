@@ -1,9 +1,8 @@
-.about-article {
-    border-radius: 5px;
-    margin-bottom: 0;
-    background: var(--side-bg-color);
-    box-shadow: 1px 3px 3px 1px var(--box-shadow-color);
-    padding: 2.5rem 2.5rem 5rem;
+.card {
+    
+    margin-bottom: 0;     
+    margin-top: -3rem; 
+    padding: 5%;
     grid-template-rows: 1fr;
   }
   
@@ -11,10 +10,19 @@
     padding-bottom: 2rem;
   }
   
-  .description {
+  .intro {
     line-height: 1.5;
     text-align: justify;
     margin-bottom: 2.2em;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+  }
+
+  .description {
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 2.2rem;
+    margin-top: 2.2rem;
   }
   
   .about-picture {
@@ -35,26 +43,47 @@
     transform: scale(1.05);
   }
   
-  .intro {
-    font-size: 1.1rem;
-    letter-spacing: 1px;
-  }
   
-  blockquote {
-    background: var(--main-bg-color);
-    border-left: 10px solid var(--btn-bg-color);
+  .blockquote {
+    background: #cac7c7;
+    border-left: 10px solid var(--green);
     margin: 1.5em 10px;
     padding: 1rem;
     padding-left: 2rem;
     line-height: 1.5;
     letter-spacing: 1px;
+    font-size: 1.1rem;
   }
-  @media (min-width: 760px) {
+
+  @media (min-width: 672px) {
+    .card {
+      padding-left: 10%;
+      padding-right: 10%;
+    }
     .about-img {
       max-width: 310px;
     }
+    .description {
+      font-size: 1.4rem;
+    }
+
+    .intro {
+      font-size: 1.5rem;
+    }
   }
-  @media (min-width: 890px) {
+  @media (min-width: 798px) {
+    .card {
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+
+    .description {
+      font-size: 1.6rem;
+      color: rgba(0, 0, 0, 0.8)
+    }
+    .intro { 
+      font-size: 1.65rem;
+    }
     .about-img {
       max-width: 400px;
     }
