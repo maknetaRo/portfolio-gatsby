@@ -16,7 +16,7 @@ const Hero = props => {
       </div>
       <div className={styles.mePhoto}>
         <figure className={styles.me}>
-          <img className={styles.meImg} src={author} alt="woman's face" />
+          <img className={styles.meImg} src={author} alt="face" />
         </figure>
       </div>
     </section>
