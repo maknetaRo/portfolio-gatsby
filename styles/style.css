@@ -34,6 +34,13 @@ section {
   align-items: center;
 }
 
+header {
+  background: rgb(25, 26, 29);
+  clip-path: polygon(100% 0, 100% 89%, 72% 100%, 0 83%, 0 0);
+  padding: 0 0 2.5%;
+  margin-bottom: 10rem;
+}
+
 
 
 @media (min-width: 672px) {
