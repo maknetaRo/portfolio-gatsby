@@ -10,11 +10,13 @@
   
   .contact {
     display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1.3fr;
     min-height: 50vh;
     /* justify-content: space-around; */
     align-items: center;
     padding-top: 11rem;
-    padding-bottom: 5rem;
+    /* padding-bottom: 5rem; */
   }
   
   .in-touch {
@@ -39,6 +41,13 @@
     align-items: baseline;
     margin-bottom: 3rem;
   }
+
+  .social-media {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: flex-end;
+  }
   
   .social-media li {
     display: flex;
@@ -60,13 +69,7 @@
     font-size: 1.5rem;
   }
   
-  .foot-note {
-    height: 60px;
-    border-top: 2px solid var(--grey-border);
-    letter-spacing: 1px;
-  
-    color: rgba(255, 255, 255, 0.7);
-  }
+ 
   
   .space-bottom {
     width: 100%;
@@ -77,9 +80,14 @@
     align-items: center;
     padding-bottom: 5%;
   }
-
+  @media (min-width: 672px) {
+  
+  }
   @media (min-width: 798px) {
     .contact {
       grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+      
     }
+   
   }

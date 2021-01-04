@@ -1,6 +1,15 @@
 import React from 'react'
 import styles from './footer.module.css'
 import MoreBtn from '../moreBtn/moreBtn'
+import FootNote from '../footNote/footNote'
+import {
+  FaCodepen,
+  FaGithub,
+  FaTwitter,
+  FaLinkedin
+} from 'react-icons/fa'
+
+
 
 const Footer = () => {
   return (
@@ -19,7 +28,7 @@ const Footer = () => {
 
             <li>
               <span className={styles.listIcon}>
-                <i class="fab fa-codepen"></i>
+                <FaCodepen></FaCodepen>
               </span>
               <a
                 href="https://codepen.io/Magda_"
@@ -32,7 +41,7 @@ const Footer = () => {
 
             <li>
               <span className={styles.listIcon}>
-                <i class="fab fa-github"></i>
+                <FaGithub></FaGithub>
               </span>
               <a
                 href="https://github.com/maknetaRo"
@@ -43,7 +52,7 @@ const Footer = () => {
             </li>
             <li>
               <span className={styles.listIcon}>
-                <i class="fab fa-twitter"></i>
+              <FaTwitter></FaTwitter>
               </span>
               <a
                 href="https://twitter.com/makneta"
@@ -54,7 +63,7 @@ const Footer = () => {
             </li>
             <li>
               <span className={styles.listIcon}>
-                <i class="fab fa-linkedin"></i>
+               <FaLinkedin></FaLinkedin>
               </span>
               <a
                 href="https://www.linkedin.com/in/magdalena-ros%C5%82aniec-373b977b/"
@@ -66,9 +75,7 @@ const Footer = () => {
           </ul>
         </div>
       </section>
-      <section className={styles.footNote}>
-        <p>Magdalena Rosłaniec @ 2020. All rights reserved</p>
-      </section>
+      <FootNote />
     </footer>
   )
 }

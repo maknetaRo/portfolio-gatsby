@@ -43,6 +43,10 @@ TODO:
 - [ ] create sign up for newsletter
 - [ ] create canonical url
 
+### Useful links:
+- https://www.npmjs.com/package/react-icons
+- https://react-icons.github.io/react-icons
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">

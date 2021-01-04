@@ -1,10 +1,11 @@
 import React from 'react'
 import styles from './moreBtn.module.css'
+import { Link } from 'gatsby'
 
 const MoreBtn = props => {
     return (
         <div>
-            <a className={styles.mediumMore} href={props.href}>{props.text}</a>
+            <Link className={styles.mediumMore} to={props.href}>{props.text}</Link>
         </div>
     )
 }
