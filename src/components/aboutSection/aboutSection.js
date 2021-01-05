@@ -10,7 +10,7 @@ const AboutSection = () => {
 const data = useStaticQuery(graphql`
 fragment squareImage on File {
   childImageSharp {
-    fluid(maxWidth: 500, maxHeight: 500) {
+    fluid(maxWidth: 550, maxHeight: 550) {
       ...GatsbyImageSharpFluid
     }
   }
