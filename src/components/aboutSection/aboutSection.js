@@ -49,6 +49,7 @@ query {
             alt="spring lake"
             style={{maxWidth: "550px", margin: "3rem auto", borderRadius: "5px",
             boxShadow: "1px 3px 3px 1px rgba(0, 0, 0, 0.5"}}
+            loading="eager"
             
           />
         </div>
@@ -62,6 +63,7 @@ query {
             alt="spring lake"
             style={{maxWidth: "550px", margin: "3rem auto", borderRadius: "5px",
             boxShadow: "1px 3px 3px 1px rgba(0, 0, 0, 0.5"}}
+            loading="eager"
            
           />
         </div>
@@ -90,6 +92,7 @@ query {
               alt="spring lake"
               style={{ maxWidth: "550px", margin: "3rem auto", borderRadius: "5px",
               boxShadow: "1px 3px 3px 1px rgba(0, 0, 0, 0.5"}}
+              loading="eager"
               
             />
         </div>
