@@ -10,28 +10,31 @@ const AboutSection = () => {
 const data = useStaticQuery(graphql`
 fragment squareImage on File {
   childImageSharp {
-    fluid(maxWidth: 200, maxHeight: 200) {
+    fluid(maxWidth: 500, maxHeight: 500) {
       ...GatsbyImageSharpFluid
     }
   }
 }
 
 query {
-  image1: file(relativePath: { eq: "assets/lake_krzywe.jpeg" }) {
+  image1: file(relativePath: { eq: "about/lake_krzywe.png" }) {
     ...squareImage
   }
 
-  image2: file(relativePath: { eq: "assets/spring-lake.jpg" }) {
+  image2: file(relativePath: { eq: "about/spring-lake.png" }) {
     ...squareImage
   }
 
-  image3: file(relativePath: { eq: "assets/zalew-trees.jpg" }) {
+  image3: file(relativePath: { eq: "about/zalew-trees.png" }) {
     ...squareImage
   }
 }
 `);
+
   
   const { image1, image2, image3 } = data
+  console.log(data)
+  console.log(image1.childImageSharp.fluid)
     return (
       <section>
         <article className={styles.card}>
@@ -41,10 +44,10 @@ query {
           I'm a teacher, mother and self-taught developer who wants to change
           her career into programming.
         </p>
-        <div className={styles.aboutPicture}>
-          <Img image={data.image1}
+        <div >
+          <Img fluid={image1.childImageSharp.fluid}
             alt="spring lake"
-            className={styles.aboutImg}
+            
           />
         </div>
         <p className={styles.description}>
@@ -52,10 +55,10 @@ query {
           fatherland, it's a peaceful place, full of lakes and forests, where I
           enjoy running, nordic walking and riding a bike in my free time.
         </p>
-        <div className={styles.aboutPicture}>
-        <Img image={data.image2}
+        <div >
+        <Img fluid={image2.childImageSharp.fluid}
             alt="spring lake"
-            className={styles.aboutImg}
+           
           />
         </div>
         <p className={styles.description}>
@@ -78,10 +81,10 @@ query {
         </blockquote> 
           
         </p>
-        <div className={styles.aboutPicture}>
-        <Img image={data.image3}
+        <div >
+        <Img fluid={image3.childImageSharp.fluid}
               alt="spring lake"
-              className={styles.aboutImg}
+              
             />
         </div>
         </article>
