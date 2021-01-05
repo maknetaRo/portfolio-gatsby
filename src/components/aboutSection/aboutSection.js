@@ -47,6 +47,8 @@ query {
         <div >
           <Img fluid={image1.childImageSharp.fluid}
             alt="spring lake"
+            style={{maxWidth: "550px", margin: "3rem auto", borderRadius: "5px",
+            boxShadow: "1px 3px 3px 1px rgba(0, 0, 0, 0.5"}}
             
           />
         </div>
@@ -58,6 +60,8 @@ query {
         <div >
         <Img fluid={image2.childImageSharp.fluid}
             alt="spring lake"
+            style={{maxWidth: "550px", margin: "3rem auto", borderRadius: "5px",
+            boxShadow: "1px 3px 3px 1px rgba(0, 0, 0, 0.5"}}
            
           />
         </div>
@@ -84,6 +88,8 @@ query {
         <div >
         <Img fluid={image3.childImageSharp.fluid}
               alt="spring lake"
+              style={{ maxWidth: "550px", margin: "3rem auto", borderRadius: "5px",
+              boxShadow: "1px 3px 3px 1px rgba(0, 0, 0, 0.5"}}
               
             />
         </div>
