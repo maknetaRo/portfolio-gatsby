@@ -1,0 +1,1 @@
+{"errors":[{"message":"Invalid regular expression: /(jpg)|jpeg|png)/: Unmatched ')'","locations":[{"line":2,"column":3}],"path":["allFile"]}],"data":null}
