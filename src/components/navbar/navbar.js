@@ -11,9 +11,7 @@ const tempLinks = data.map(link => {
   )
 })
 
-
 const Navbar = () => {
-
     return (
         <div>
         <nav className={styles.nav}>

@@ -18,7 +18,7 @@ export const data = [
     {
         id: 4,
         text: "articles",
-        url: "/articles/"
+        url: "/blog/"
     },
     {
         id: 5,

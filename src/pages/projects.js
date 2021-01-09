@@ -1,25 +1,26 @@
 import React from 'react'
 import Layout from "../components/layout"
 import Navbar from '../components/navbar/navbar'
-import FootNote from '../components/footNote/footNote'
+import Footer from '../components/footer/footer'
 import HeroSmall from '../components/heroSmall/heroSmall'
-import ContactForm from '../components/contactForm/contactForm'
 
-const Contact = () => {
+const Projects = () => {
     return (
         <Layout>
             <header style={{ display: "flex", flexDirection: "column" }}>
                 <Navbar />
-                <HeroSmall title="Contact" text="For all enquiries email me using the form below." />
+                <HeroSmall title="My projects" />
             </header>
-            <main>
-                <ContactForm />
 
+
+            <main>
+                
             </main>
-            <FootNote />
+
+            <Footer />
 
         </Layout>
     )
 }
 
-export default Contact
+export default Projects
